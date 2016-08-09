@@ -2,6 +2,8 @@ package encrypterdecrypter;
 
 import java.io.Console;
 
+// Standalone PBKDF2 Encrypt/Decrypt.
+//TODO variable iteration possibility.
 public class mainEncDec {
     public static void main(String args[]) throws Exception {
     	 Console cons;
