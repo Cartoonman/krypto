@@ -40,6 +40,7 @@ class Encrypter {
     		saltiersalt = saltiersalt + k;
     	}
     	this.lesalt = saltiersalt;
+    	System.out.println(saltiersalt.getBytes().length);
     	return saltiersalt;
     }
     
